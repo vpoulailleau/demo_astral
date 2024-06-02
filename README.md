@@ -22,13 +22,13 @@ cp -R . ../demo_new
 Open 2 terminals, only the first line changes.
 
 ```sh
-cd ../demo_old  # or cd ../demo_new
-cat alias.sh
-source alias.sh  # alias installation
-venv  # create virtual environment
-act  # activate the virtual environment
-cat requirements.txt
-pip install -r requirements.txt  # install dependencies
-lint django  # run the linter
-format django  # run the formatter
+cd ../demo_old                      # or cd ../demo_new
+cat alias.sh                        # display aliases
+source alias.sh                     # aliases installation
+venv                                # create virtual environment
+act                                 # activate the virtual environment
+cat requirements.txt                # display needed dependencies
+pip install -r requirements.txt     # install dependencies
+lint django                         # run the linter
+format django                       # run the formatter
 ```
