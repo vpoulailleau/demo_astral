@@ -22,7 +22,7 @@ cp -R . ../demo_new
 Open 2 terminals, only the first line changes.
 
 ```sh
-cd ../demo_old
+cd ../demo_old  # or cd ../demo_new
 cat alias.sh
 source alias.sh  # alias installation
 venv  # create virtual environment
