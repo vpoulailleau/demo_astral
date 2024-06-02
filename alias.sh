@@ -3,6 +3,7 @@ if [[ "${PWD##*/}" == *old* ]]; then
     echo "Installing old aliases"
     alias venv='python3.12 -m venv venv'
     alias act='source venv/bin/activate'
+    alias pip='pip'
     alias lint='flake8'
     alias format='black'
 

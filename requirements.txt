@@ -1,3 +1,8 @@
 flake8
 ruff
 black
+
+# useless, only to complexify installation
+django
+django-ninja
+fastapi

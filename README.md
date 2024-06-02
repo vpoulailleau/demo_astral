@@ -12,6 +12,7 @@ Install:
 - `uv`: https://github.com/astral-sh/uv
 
 ```sh
+rm -rf ../demo_old ../demo_new
 cp -R . ../demo_old
 cp -R . ../demo_new
 ```
@@ -23,4 +24,8 @@ Open 2 terminals, only the first line changes.
 ```sh
 cd ../demo_old
 cat alias.sh
+source alias.sh  # alias installation
+venv  # create virtual environment
+act  # activate the virtual environment
+pip install -r requirements.txt  # install dependencies
 ```
