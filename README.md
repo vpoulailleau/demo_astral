@@ -12,6 +12,8 @@ Install:
 - `uv`: https://github.com/astral-sh/uv
 
 ```sh
+git clone git@github.com:vpoulailleau/demo_astral.git
+cd demo_astral
 rm -rf ../demo_old ../demo_new
 cp -R . ../demo_old
 cp -R . ../demo_new
