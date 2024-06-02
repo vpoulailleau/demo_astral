@@ -27,6 +27,7 @@ cat alias.sh
 source alias.sh  # alias installation
 venv  # create virtual environment
 act  # activate the virtual environment
+cat requirements.txt
 pip install -r requirements.txt  # install dependencies
 lint django  # run the linter
 format django  # run the formatter
